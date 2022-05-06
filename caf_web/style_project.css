@@ -1,0 +1,103 @@
+body
+{
+	background-color:#f1f1f1;
+}
+h1
+{
+	color:#638a7e;
+	text-align:left;
+	font-family:"Calibri";
+	font-size:22px;
+}
+h2
+{
+	color:#d4846f;
+	font-size:30px;
+}
+h4
+{
+	color:#d4846f;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	display:Inline;
+}
+p
+{
+	font-family:"Calibri";
+	font-size:20px;
+}
+
+/*For navigator*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #D0D0D0;
+    border-radius: 3px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+li a.active {
+    background-color: #638a7e;
+    color: white;
+    border-radius: 3px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 3px;
+}
+/*For input table*/
+input[type=text], select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	font-family:"Calibri";
+	font-size:22px;
+}
+
+input[type=submit] {
+  width: 12%;
+  background-color: #638a7e;
+  color: white;
+  padding: 12px 18px;
+  margin: 6px 10%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:25px;
+}
+
+input[type=submit]:hover {
+  background-color: #638a7e;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+button
+{
+  background-color: #638a7e;
+  color: white;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
